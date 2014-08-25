@@ -1,0 +1,17 @@
+topology.name=MetricTest_s1
+topology.workers=12
+topology.acker.executors=6
+topology.max.spout.pending=10000
+topology.debug=false
+
+spout.parallel=6
+bolt.parallel=6
+kryo.enable=false
+fall.back.on.java.serialization=true
+enable.split=false
+topology.nums=1
+topology.bolt.nums=6
+topology.pollFreq=10
+topology.testRunTime=6000
+topology.messagesize=10
+
